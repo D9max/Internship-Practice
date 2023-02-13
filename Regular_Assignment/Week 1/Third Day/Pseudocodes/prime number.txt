@@ -1,0 +1,46 @@
+//prive no using for loop
+
+begin 
+number num, i=1,cnt=0
+print("enter the number")
+input num
+for(i=1;i<=num/2;i++)
+{
+  if num%i==0
+  {
+   cnt=cnt+1
+  }
+}
+if cnt==1
+ {
+  print("it is  a prime numer")
+ }
+else
+{
+ print("it is not a prime number")
+}
+end
+---------------------------------------------------------------------------------
+//prive no using while loop
+
+begin 
+number num, i=1,cnt=0
+print("enter the number")
+input num
+while i<num
+{
+  if num%i==0
+  {
+   cnt=cnt+1
+   i=i+1
+  }
+}
+if cnt>1
+ {
+  print("it is not a prime numer")
+ }
+else
+{
+ print("it is a prime number")
+}
+end

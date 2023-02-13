@@ -1,0 +1,14 @@
+//To accept number and print factors of a number
+
+begin 
+number num, i=1
+print("enter the number")
+input num
+for(i=1;i<=num/2;i++)
+{
+  if num%i==0
+  {
+   print(num)
+}
+}
+end

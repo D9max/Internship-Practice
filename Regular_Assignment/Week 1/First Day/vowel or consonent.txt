@@ -1,0 +1,12 @@
+//vowel or consonent
+
+step1 : start
+step2 : decalre ch
+step3 : read ch
+step4 :  if ch=='a' or ch=='e' or ch=='i' or 
+		ch=='o' or char == 'u'
+          display vowels
+    else :
+          dispay consonent
+
+step5 : stop

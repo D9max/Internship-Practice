@@ -1,0 +1,8 @@
+Area of rectangle
+
+Step1 : start
+step2 : Declare variables length,breadth,area;
+step3 : Read high,base;
+step3 : perform Area operation Area=len*bre
+step4 : dispalay Area;
+step5 : stop

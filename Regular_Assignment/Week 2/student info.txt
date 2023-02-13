@@ -1,0 +1,13 @@
+//to print name,college name,branch,sec of the student
+
+class Sample {
+
+  public static void main(String agrs[]){
+
+      	System.out.println("name :Mubarak M");
+   	System.out.println("college :Moodlakatte Institute of Tecnology Kundapura");
+   	System.out.println("Branch :Computer Science and Engineering");
+  	System.out.println("Batch :Batch 2");
+    
+  }
+}

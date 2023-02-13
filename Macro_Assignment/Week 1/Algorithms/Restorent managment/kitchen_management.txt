@@ -1,0 +1,12 @@
+//Kitchen Management
+
+Step1 : Start
+Step2 : To Check the number of chef if vacancies are found
+Step3 : Assing Superior Chefs to monitor junior chefs
+Step4 : Assing works Based on there abilities
+Step5 : Provide with all requirements
+Step6 : Provide the Check-in orders to the particular chefs
+Step7 : Once the Order was ready pass the order to the serving waiters
+Step8 : Preparing the food accroding to the order recived
+Step9 : Keep food ready for fst service
+Step10 : Stop

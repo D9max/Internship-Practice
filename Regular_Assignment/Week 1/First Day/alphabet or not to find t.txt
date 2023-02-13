@@ -1,0 +1,12 @@
+//find t is character or not
+
+step1  : start
+step2 : declare ch
+step3 :  read ch
+step4 : if ch=='t'
+  display
+        "its a alphabet t"
+  else
+  display
+         "its not t"
+step5 : stop

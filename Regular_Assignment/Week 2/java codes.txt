@@ -1,0 +1,516 @@
+//area of triangle
+
+import java.util.Scanner;
+class AreaOfTriangle 
+{
+   public static void main(String args[]) 
+    {   
+       
+      Scanner s= new Scanner(System.in);
+        
+         System.out.println("Enter the width of the Triangle:");
+         double b= s.nextDouble();
+ 
+         System.out.println("Enter the height of the Triangle:");
+          double h= s.nextDouble();
+ 
+                  //Area = (width*height)/2
+      double area=(b*h)/2;
+      System.out.println("Area of Triangle is: " + area);      
+   }
+}
+------------------------------------------------------------------------------------------------
+//area of circle
+
+import java.util.Scanner;
+class AreaOfCircle 
+{
+   public static void main(String args[]) 
+    {   
+       
+      Scanner s= new Scanner(System.in);
+        
+         System.out.println("Enter the radius:");
+         double r= s.nextDouble();
+         double  area=(22*r*r)/7 ;
+         System.out.println("Area of Circle is: " + area);      
+   }
+}
+------------------------------------------------------------------------------------------------
+//arae of rectangle
+
+import java.util.Scanner;
+class AreaOfRectangle 
+{
+   public static void main(String args[]) 
+    {   
+       
+      Scanner s= new Scanner(System.in);
+        
+         System.out.println("Enter the length:");
+         double l= s.nextDouble();
+        System.out.println("Enter the breadth:");
+         double b= s.nextDouble();
+        
+          
+          double  area=l*b;
+      System.out.println("Area of Rectangle is: " + area);      
+   }
+}
+------------------------------------------------------------------------------------
+//area of square
+
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+    System.out.print("Enter the side of the square: ");
+    Scanner sc = new Scanner(System.in);
+    double side = sc.nextDouble();
+    
+    double area = side * side;
+    
+    System.out.println("The area of the square is " + area);
+  }
+}
+------------------------------------------------------------------------------------------------
+//perimeter of circle
+
+import java.util.Scanner;
+class PerimeterOfCircle 
+{
+   public static void main(String args[]) 
+    {   
+       
+     	 Scanner s= new Scanner(System.in);
+        
+         System.out.println("Enter the radius:");
+         
+	 double r= s.nextDouble();
+         
+	 double  c=(22*2*r)/7 ;
+      
+	 System.out.println("Perimeter of Circle is: " +c);      
+   }
+}
+
+------------------------------------------------------------------------------------------------
+//perimeter of rectangle
+
+import java.util.Scanner;
+class PerimeterOfRectangle
+{
+   public static void main(String args[]) 
+    {   
+       
+      	 Scanner s= new Scanner(System.in);
+        
+         System.out.println("Enter the length of the Rectangle:");
+         
+	 double l= s.nextDouble();
+	 
+	 System.out.println("Enter the width of the Rectangle:");
+         
+	 double b= s.nextDouble();
+          
+         double  perimeter=2*(l+b);
+      
+	 System.out.println("perimeter of Rectangle is: " + perimeter);      
+   }
+}
+------------------------------------------------------------------------------------------------
+//perimeter of square
+
+
+import java.util.Scanner;
+class PerimeterOfSquare
+{
+   public static void main(String args[]) 
+    {   
+       
+         Scanner s= new Scanner(System.in);
+        
+         System.out.println("Enter the side of the square:");
+         
+	 double a= s.nextDouble();
+	 
+         double  perimeter=4*a;
+     
+	 System.out.println("perimeter of Square is: " + perimeter);      
+   }
+}
+------------------------------------------------------------------------------------------------
+//sum of two numbers
+
+public class SumOfTwoNum {
+    public static void main(String[] args) {
+        int a = Integer.parseInt(args[0]);
+        int b = Integer.parseInt(args[1]);
+        int sum = a + b;
+        System.out.println("Sum is " + sum);
+    }
+}
+------------------------------------------------------------------------------------------------
+//largest of 3 numbers
+
+import java.util.Scanner;
+
+public class LargestNumber {
+
+    public static void main(String[] args) {
+
+       // declare variables
+       double num1 = 0.0, num2 = 0.0, num3 = 0.0;
+       double largestNumber = 0.0;
+
+       // create Scanner class object
+       Scanner scan = new Scanner(System.in);
+
+       // read inputs
+       System.out.print("Enter three numbers:: ");
+       num1 = scan.nextDouble();
+       num2 = scan.nextDouble();
+       num3 = scan.nextDouble();
+
+       // find largest number
+       if(num1 >= num2) {
+            if(num1 >= num3) largestNumber = num1;
+            else largestNumber = num3;
+       } else {
+            if(num2>=num3) largestNumber = num2;
+            else largestNumber = num3;
+       }
+
+       // display result
+       System.out.println("Largest number = "+ largestNumber);
+
+       // close Scanner class object
+       scan.close();
+
+     }
+ }
+------------------------------------------------------------------------------------------------
+// Java Program to Find largest of Two Numbers
+
+import java.util.Scanner;
+
+public class LargestofTwo {
+	private static Scanner sc;
+	public static void main(String[] args) 
+	{
+		int number1, number2;
+		sc = new Scanner(System.in);
+		
+		System.out.print(" Please Enter the First Number : ");
+		number1 = sc.nextInt();	
+		
+		System.out.print(" Please Enter the Second Number : ");
+		number2 = sc.nextInt();	
+		
+		if(number1 > number2) 
+	    {
+			System.out.println("\n The Largest Number = " + number1);          
+	    } 
+	    else if (number2 > number1)
+	    { 
+	    	System.out.println("\n The Largest Number = " + number2);        
+	    } 
+	    else 
+	    {
+	    	System.out.println("\n Both are Equal");
+	    }		
+	}	
+}
+---------------------------------------------------------------------------------------------------
+//positive or negetive
+
+public class CheckPositiveOrNegativeExample1  
+{  
+public static void main(String[] args)   
+{  
+//number to be check  
+int num=912;  
+//checks the number is greater than 0 or not  
+if(num>0)  
+{  
+System.out.println("The number is positive.");  
+}  
+//checks the number is less than 0 or not  
+else if(num<0)  
+{  
+System.out.println("The number is negative.");  
+}  
+//executes when the above two conditions return false  
+else  
+{  
+System.out.println("The number is zero.");  
+}  
+}  
+}  
+---------------------------------------------------------------------------------------------------
+// positive or negetive or zero
+
+class CheckPositiveNegative0{
+public static void main(String args[]){
+   int num=456;
+  if(num>0){
+  System.out.println(num+" is a positive number");
+}else if(num<0){
+  System.out.println(num+" is a Negative number");
+}
+else{
+  System.out.println("The given number is zero");
+}
+}
+}
+---------------------------------------------------------------------------------------------------
+//Java Program to Display Even Numbers From 1 to 100
+
+public class DisplayEvenNumbersExample1  
+{  
+public static void main(String args[])   
+{  
+int number=100;  
+System.out.print("List of even numbers from 1 to "+number+": ");  
+for (int i=1; i<=number; i++)   
+{  
+//logic to check if the number is even or not  
+//if i%2 is equal to zero, the number is even  
+if (i%2==0)   
+{  
+System.out.print(i + " ");  
+}  
+}  
+}  
+}  
+---------------------------------------------------------------------------------------------------
+//Java Program to Display Odd Numbers From 1 to 100
+
+public class DisplayOddNumbersExample1  
+{  
+public static void main(String args[])   
+{  
+int number=100;  
+System.out.print("List of odd numbers from 1 to "+number+": ");  
+for (int i=1; i<=number; i++)   
+{  
+//logic to check if the number is odd or not  
+//if i%2 is not equal to zero, the number is odd  
+if (i%2!=0)   
+{  
+System.out.print(i + " ");  
+}  
+}  
+}  
+}  
+
+//if(number>end)     
+return;   
+if(number%2!=0)  
+----------------------------
+//while(i<=number)  
+{  
+System.out.print(i +" "); 
+
+----------------------------------------------------------------------------------------
+//sum of 3 numbers
+
+import java.util.Scanner;
+
+class SumOfThreeNumbers{
+	public static void main(String args[]){
+		int num1,num2,num3,result;
+		System.out.println("Enter any 3 integers ");
+		Scanner in = new Scanner(System.in);
+		num1 = in.nextInt();
+		num2 = in.nextInt();
+		num3 = in.nextInt();
+		result=num1+num2+num3;
+		System.out.println("The result after addition is "+result);
+	}
+}
+---------------------------------------------------------------------------------------------------
+//sum of natural numbers
+
+Sum of n natural numbers=n*(n+1)/2
+
+public class SumOfNaturalNumber1  
+{  
+public static void main(String[] args)   
+{  
+int i, num = 10, sum = 0;  
+//executes until the condition returns true  
+for(i = 1; i <= num; ++i)  
+{  
+//adding the value of i into sum variable  
+sum = sum + i;  
+}  
+//prints the sum   
+System.out.println("Sum of First 10 Natural Numbers is = " + sum);  
+}  
+}  
+
+//while(i <= num)  
+{  
+sum = sum + i;  
+i++;
+---------------------------------------------------------------------------------------------------
+//nth Prime Number
+
+import java.util.Scanner;  
+public class NthPrimeNumberExample   
+{  
+public static void main(String[] args)   
+{  
+//constructor of the Scanner class  
+Scanner sc = new Scanner(System.in);  
+System.out.print("Enter the value of n to compute the nth prime number: ");  
+//reading an integer from the user  
+int n = sc.nextInt();   
+int num=1, count=0, i;  
+while (count < n)  
+{  
+num=num+1;  
+for (i = 2; i <= num; i++)  
+{   
+//determines the modulo and compare it with 0   
+if (num % i == 0)   
+{  
+//breaks the loop if the above condition returns true  
+break;  
+}  
+}  
+if (i == num)  
+{  
+//increments the count variable by 1 if the number is prime  
+count = count+1;  
+}  
+}  
+//prints the nth prime number  
+System.out.println("The " +n +"th prime number is: " + num);  
+}  
+}  
+
+
+------------------------------------------------------------------------------------------
+//check alphabet or digit or special char
+
+import java.util.Scanner;
+
+public class AlphabetDigitSpecial {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter any caracter : ");
+        char ch = scanner.next().charAt(0);
+
+        if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
+
+             System.out.println(ch + " is A ALPHABET.");
+
+        } else if(ch >= '0' && ch <= '9') {
+
+             System.out.println(ch + " is A DIGIT.");
+
+        } else {
+
+             System.out.println(ch + " is A SPECIAL CHARACTER.");
+        }
+    
+    }
+}
+
+------------------------------------------------------------------------------------------
+//To check given number even or odd
+
+import java.util.Scanner;
+
+public class EvenOdd{
+	public static void main (String args[]) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a number: ");
+      		  int num = reader.nextInt();
+
+       	 if(num % 2 == 0)
+        		    System.out.println(num + " is even");
+       	 else
+         		   System.out.println(num + " is odd");
+    }
+}
+-----------------------------------------------------------------------------------------------------
+//swap 2 numbers 
+Swapping the Values Using Third Variable
+
+import java.util.*;
+ 
+class Swap {
+ 
+
+    static void UsingThirdVariable(int m, int n)
+    {
+      
+        int temp = m;
+        m = n;
+        n = temp;
+        System.out.println("Value of m is " + m
+                           + " and Value of n is " + n);
+    }
+    public static void main(String[] args)
+    {
+       
+        int m = 6, n = 8;
+ 
+        swapValuesUsingThirdVariable(m, n);
+    }
+}
+
+-----------------------------------------------------------------------------------------------------
+//swap 2 numbers without using third variable 
+
+import java.util.*;
+class Swap {
+    static void WithoutUsingThirdVariable(int num1,int num2)
+    {
+        num1 = mnum1 - num2
+        num2 = num1 + num2;
+        num1 = num2- num1;
+        System.out.println("Value of m is " + num1+ " and Value of n is " + num2);
+    }
+    public static void main(String[] args)
+    {
+        int m = 6, n = 9;
+        swapValuesWithoutUsingThirdVariable(num1, num2);
+    }
+}
+
+-----------------------------------------------------------------------------------------------------
+//swap 2 numbers without using  Using Operator
+
+import java.io.*;
+ 
+class Swap {
+    static void swapValuesUsingXOROperator(int num1, int num2)
+    {
+     
+        num1 = num1 ^ num2;
+        num2 = num1 ^ num2;
+        num1 = num1 ^ num2;
+       
+ 
+        System.out.println("Value of m is " + m
+                           + " and Value of n is " + n);
+    }
+ 
+    // Main driver method
+    public static void main(String[] args)
+    {
+        // Random two integer numbers
+        // to get swapped
+        int m = 9, n = 5;
+ 
+        // Calling the function in main method
+        // to get above integer numbers swapped
+        swapValuesUsingXOROperator(m, n);
+    }
+}

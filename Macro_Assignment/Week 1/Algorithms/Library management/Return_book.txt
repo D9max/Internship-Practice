@@ -1,0 +1,14 @@
+//Return Book
+
+Step1 : Start
+Step2 : Declare Book_Id,std_id,Iss_Date,Return_date
+step3 : Read Book_Id,std_id,Iss_date,Return_date
+step4 : intialize Return_date=mm/dd/yyyy
+step5 : check Return date value with Date 
+      		 if(Return_date) if 
+      		  true go to step6 
+      		 elseif(Return_date)
+      		  go to step 7
+step6 : the book is accepted 
+step7 : Charge Fine
+step8: stop

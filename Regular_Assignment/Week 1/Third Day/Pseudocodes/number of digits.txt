@@ -1,0 +1,12 @@
+begin
+number num,count=0
+print("enter the number")
+input num
+while num!=0
+{
+ num=num/10
+ count=count+1
+}
+print(count)
+end
+

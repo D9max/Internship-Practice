@@ -1,0 +1,16 @@
+//Arrange Books
+
+step1 : start
+step2 : Visit to the library
+step3 : Select the racks you want to arrange the books
+step4 : number the racks
+step5 : select the Book type 
+step6 : collect all the books related to that Type
+step7 : seperate the books based on the topic or 
+    subject or Author or category
+step8 : arrange the books of particular subject
+       based on Category
+			    Subject
+			    Author
+step9 : repeat step 8 for rest all subjects or branchs
+step10 : stop

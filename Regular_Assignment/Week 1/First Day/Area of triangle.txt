@@ -1,0 +1,8 @@
+//Area of triangle
+
+Step1 : start
+step2 : Declare variables area,high,base;
+step3 : Read high,base;
+step3 : perform Area operation Area=high*base/2
+step4 : dispalay Area;
+step5 : stop

@@ -1,0 +1,10 @@
+//positive or negetive
+
+step1 : start
+step2 : declare num
+step3 : read num
+step4 : if num>0
+    display "its a positive"
+    else
+    display "its a negetive"
+step5 : stop

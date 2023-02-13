@@ -1,0 +1,17 @@
+//swap 2 numbers without using third variable 
+
+import java.util.*;
+class Swap {
+    static void WithoutUsingThirdVariable(int num1,int num2)
+    {
+        num1 = mnum1 - num2
+        num2 = num1 + num2;
+        num1 = num2- num1;
+        System.out.println("Value of m is " + num1+ " and Value of n is " + num2);
+    }
+    public static void main(String[] args)
+    {
+        int m = 6, n = 9;
+        swapValuesWithoutUsingThirdVariable(num1, num2);
+    }
+}

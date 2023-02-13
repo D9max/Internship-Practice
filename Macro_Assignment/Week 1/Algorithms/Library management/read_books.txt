@@ -1,0 +1,26 @@
+//Machine understanding algorithm
+
+Step1 : Start
+Step2 : Declare Book_name,std_id,Track_no
+step3 : Read Book_name,std_id
+step4 : intialize std_id=s1
+step5 : check s1 value with Std_id if(s1=std_id) if 
+        true go to 
+        step6 if the condition false go to step 8
+step6 : Student entry success else step7
+step7 : Student enter Discarded
+step8 : stop
+
+
+//Generalized Way
+
+Step1 : Start
+Step2 : Go to library
+Step3 : Enter the details of Student ,Name,Card_number,Date and Entry Time
+Step4 : Ask for the librarian for required book
+Step5 : Then Check the book at the place on the given instuctions
+Step6 : Pick the book Find the place and start reading
+Step7 : keep the book after reading at the place where it belongs
+Step8 : Enter the leaving time from the library in the register
+Step9 : Stop
+

@@ -1,0 +1,12 @@
+//Borrow of books
+
+step1 : start
+step2 : Visit to the library
+step3 : To get the Lib_card into library
+step4 : Select the book u want to borrow
+step4 : select racks Number were the book is avilable
+step5 : select the Book type 
+step6 : collect the book from the respected rack
+step7 : Entering to the Borrow Details
+    		mention borrow_date and Return_date
+step8 : stop

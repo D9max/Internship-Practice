@@ -1,0 +1,7 @@
+step 1: read first number
+step 2: read second number              
+step 3: read third number                        
+step 4: Add first second and third mark   
+step 5: Take average of first second and third mark                                               
+step 6: display total of marks                 
+ step 7: diisplay average of marks

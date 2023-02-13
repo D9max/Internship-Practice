@@ -1,0 +1,33 @@
+//To print odd numbers between 1-10 numbers using for loop
+
+begin 
+number num=1
+for(num=1;num<=10;num++)
+{
+ if num%2!=0
+ {
+  print(num)
+ }
+}
+
+end
+
+----------------------------------------------------------------------------
+//To print odd numbers between 1-10 numbers using while loop
+
+begin 
+number num=1
+while num<=10
+{
+ if num%2==0
+ {
+  num=num+1
+ }
+else
+ {
+  print(num)
+  num=num+1
+  }
+}
+
+end

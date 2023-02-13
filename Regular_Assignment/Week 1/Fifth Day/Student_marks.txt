@@ -1,0 +1,25 @@
+//Student Marks
+
+step1 : start
+step2 : Declare Sub,Avgmarks,Per,Grade;
+step3 : Read Sub1+Sub2+Sub3+Sub4+Sub5;
+step4 : Find average marks 
+      Avgmarks = Sub1+Sub2+Sub3+Sub4+Sub5/5
+step5 : find marks gain 
+          MarksGain = Sub1+Sub2+Sub3+Sub4+Sub5
+step5 : Find TotalMarks
+           TotalMarks = TM
+step6 : Find percentage of Total marks
+      per=MarksGain/TM*100
+step7 : Find grades
+      if (per< = 100 and per> = 90)
+           Display A Grade
+      elseif (per< = 90 and per> = 80)
+           Display B Grade
+      elseif (per< = 80 and per> = 70)
+           Display C Grade
+      elseif (per< = 70 and per> = 60)
+           Display D Grade
+      else 
+          Display Fail
+step8:Stop

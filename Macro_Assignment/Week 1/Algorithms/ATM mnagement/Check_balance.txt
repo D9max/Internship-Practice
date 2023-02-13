@@ -1,0 +1,29 @@
+//check balance
+
+Step1 : Start
+Step2 : Declare Atm_Card,Atm_pin,Amount
+step3 : Read Atm_Card
+step4 : intialize Atm_pin=******
+step5 : check Atm_pin 
+    		  if(Atm_pin==******) if true go to 
+        step6 if the condition false go to step 7
+step6 : your A/C Balance is *******
+       else step7
+step7 : Invalid Pin
+step8 : stop
+
+//Generalized way
+
+Step1 : Start
+Step2 : go visit to a ATM
+Step3 : Check if u have the Atm card
+Step4 : Check inside the Atm and insert the Card
+            wait for machine to read the card
+            Choose the language 
+            Enter your PIN
+            Select the option for check balance
+Step5 : Slect the account
+           Current 
+           Savings
+Step6 : Read the balance and collect the receipt
+Step7 : Stop 

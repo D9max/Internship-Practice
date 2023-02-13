@@ -1,0 +1,25 @@
+//Calculate the gross salary
+
+step1 : start
+step2 : Declare BasicSal,HRA,DA;
+step3 : Read BasicSal;
+step4 : Find Gross salary
+      if (BasicSal<=10000)
+        	 HRA=BS*0.8
+        	 DA=BS*0.2
+        	 GS=BasicSal+HRA+DA:
+      Display GS
+      elseif (BasicSal<=20000)
+         	HRA=BS*0.90
+        	 DA=BS*0.25
+        	 GS=BasicSal+HRA+DA:
+      Display GS
+       elseif (BasicSal>20000)
+        	 HRA=BS*0.95
+         	DA=BS*0.3
+         	GS=BasicSal+HRA+DA:
+      Display GS
+       else
+      Display
+step5 : stop
+     

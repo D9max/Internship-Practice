@@ -1,0 +1,36 @@
+//money withdraw
+Step1 : Start
+Step2 : Declare Atm_Card,Atm_pin,Amount
+step3 : Read Atm_Card
+step4 : intialize Atm_pin
+step5 : check Atm_pin 
+      if(Atm_pin==****) if true go to 
+        step6 if the condition false go to step 8
+step6 : if(Amount>0) go to step 7 
+       elseif(Amount<0) go to step 8         
+step7 : enter the amount you need to withdraw
+step8 : Insufficient Balance
+step8 : invalid pin
+ 
+
+//Generalized way
+
+Step1 : Start
+Step2 : Go to nearby Atm
+Step3 : Insert the Atm-Card
+           Wait for machine to read the Atm-Card
+           Select for language
+            Enter the PIN
+Step4 : If the pin is correct then go for step5
+            else go for step10
+Step5 : Select the withdraw option
+Step6 : Select the Account
+           Savings
+           Current
+Step7 : Enter the Amount you need to withdraw
+           if Amount avilable go for step step8
+           else go for step10
+Step8 : Enter the Amount you need to withdraw
+Step9 : Collect the cash and Reciept
+Step10 : Insufficient balance
+Step11 : Stop

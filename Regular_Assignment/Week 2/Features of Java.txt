@@ -1,0 +1,60 @@
+Features of Java
+
+1) Simple : Java is a simple programming language and easy to understand because it does not contain complexities that exist
+ 		in prior programming languages. In fact, simplicity was the design aim of Javasoft peoples,
+		 because it has to work on electronic devices where less memory/resources are available.
+
+2) Object-Oriented :  which means in Java everything is written in terms of classes and objects
+				    Object is nothing but a real world entity that can represent any person, place, or thing and can be distinguished from others
+				   Every object near us has some state and behavior associated with it    
+ For example, my mobile phone, it is a real world entity and has states like color, model, brand, camera quality, etc
+ and these properties are represented by variables
+
+*Class and Object :  A collection of objects that exhibits the same state and behavior will come under the same group called class
+
+*Encapsulation :  is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines
+
+*Abstraction  : Abstraction is a feature of OOPs. The feature allows us to hide the implementation detail from the user and shows only the functionality of the programming to the user
+
+*Inheritance : is a mechanism in which one object acquires all the properties and behaviors of a parent object. It is an important part of OOPs (Object Oriented programming system)
+
+*Polymorphism : is a concept by which we can perform a single action in different ways. Polymorphism is derived from 2 Greek words: poly and morphs. The word "poly" means many 
+				and "morphs" means forms. So polymorphism means many forms
+
+3)Platform Independent : Java is platform independent because it is different from other languages like C, C++, etc. which are compiled into platform specific machines while 
+						Java is a write once, run anywhere language. A platform is the hardware or software environment in which a program runs
+						There are two types of platforms software-based and hardware-based. Java provides a software-based platform
+
+
+4) Secured : In today’s era, security is a major concern of every application. As now every device is connected to each other using the internet and this opens up the possibility of hacking.
+			 And our application build using java also needs some sort of security. So Java also provides security features to the programmers.
+Java is best known for its security. With Java, we can develop virus-free systems. Java is secured because:
+
+=>No explicit pointer
+=>Java Programs run inside a virtual machine sandbox
+=>Classloader: Classloader in Java is a part of the Java Runtime Environment (JRE) which is used to load Java classes into the Java Virtual Machine dynamically
+
+=>Bytecode Verifier: It checks the code fragments for illegal code that can violate access rights to objects.
+
+=>Security Manager: It determines what resources a class can access such as reading and writing to the local disk.
+
+5) Portable : Java is portable because it facilitates you to carry the Java bytecode to any platform. It doesn't require any implementation.
+
+6) Dynamic : Java is a dynamic language. It supports the dynamic loading of classes. It means classes are loaded on demand. It also supports functions from its native languages, i.e., C and C++.
+
+7) Robust : The Java Programming language is robust, which means it is capable of handling unexpected termination of a program
+			There are 2 reasons behind this, first, it has a most important and helpful feature called Exception Handling
+			 reason why Java is strong lies in its memory management features. Unlike other low level languages, Java provides a runtime Garbage collector offered by JVM, which collects all the unused variables
+			It uses strong memory management.
+			There is a lack of pointers that avoids security problems.
+
+8)High-performance : Java is faster than other traditional interpreted programming languages because Java bytecode is "close" to native code. It is still a little bit slower than a compiled language (e.g., C++).
+					    Java is an interpreted language that is why it is slower than compiled languages, e.g., C, C++, etc.
+
+9) Multi-Threaded : A thread is like a separate program, executing concurrently. We can write Java programs that deal with many tasks at once by defining multiple threads.
+					Thread is a lightweight and independent subprocess of a running program (i.e, process) that shares resources.
+					And when multiple threads run simultaneously is called multi-threading. In many applications, you have seen multiple tasks running simultaneously, 
+					for example, Google Docs where while typing text, the spell check and autocorrect task are running.
+
+10) Interpreted : When we start learning Java programming, one question arises: whether Java is interpreted or Compiled, or both. Also, this question may be asked by the interviewee in your Java-related interviews. 
+		    So the answer to this question is Java is both Interpreted and compiled.

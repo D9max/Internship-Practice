@@ -1,0 +1,23 @@
+//To print sum of first 10 numbers using for loop
+
+begin
+number num=1,n=0
+for(num=1;num<=10;num++)
+{
+ n=num+n
+ num=num+1
+}
+print(n)
+end
+------------------------------------------------------------------------------------
+//To print sum of first 10 numbers using while loop
+
+begin
+number num=1,n=0
+while num<=10
+{
+ n=num+n
+ num=num+1
+}
+print(n)
+end

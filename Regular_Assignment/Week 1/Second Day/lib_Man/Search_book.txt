@@ -1,0 +1,27 @@
+//search book
+
+Step1 : Start
+Step2 : to Declare Book_name,std_id,Track_no,Book_Id
+step3 : Read Book_Id,Track_no
+step4 : intialize Book_id = B1
+step5 : check B1 value with Book_Id 
+		if (Book_id=B1) 
+             if true go to step6 if the condition 
+             false go to step 7
+step6 : Book found 
+step7 : Book not found
+step8 : stop
+
+
+//Generalized way
+
+Step1 : Start
+Step2 : Go to library
+Step3 : Enter the Student details,Card_number and Entry Time
+Step4 : Ask the librarian for required book
+Step5 : Go Check the book at the place on the given instuctions
+Step6 : if book found
+             Stay in library and read it
+           Else
+             borrow the book from the library
+Step7 : Stop

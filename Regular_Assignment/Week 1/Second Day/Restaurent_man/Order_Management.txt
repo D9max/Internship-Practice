@@ -1,0 +1,17 @@
+//order management
+
+Step1 : Start
+Step2 : First Check for the customer
+      if yes
+        them provide them the menu
+      else 
+        Ignore
+step3 : If Once customer decide take the order from the customer
+step4 : Pass the order to the cooking Department
+step5 : Once the order was ready take it from the cooking Department and pass to the customer
+step6 : Once the customer finishes his food ask him for anything else if yes move to step3
+      		else 
+		move for step 7
+step7 : Provide the bill to the customer
+step8 : Collect the bill amount from the customer
+Step9 : Stop

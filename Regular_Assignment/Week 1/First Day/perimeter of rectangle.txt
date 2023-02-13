@@ -1,0 +1,8 @@
+//perimeter of rectangle
+
+Step1 : start
+step2 : Declare variables length,width,perimeter;
+step3 : Read length,width;
+step3 : perform perimeter operation perimeter=2*(length+width)
+step4 : dispalay perimeter;
+step5 : stop

@@ -1,0 +1,21 @@
+//swap 2 numbers without using  Using Operator
+
+import java.io.*;
+ 
+class Swap {
+    static void UsingXOROperator(int num1, int num2)
+    {
+     
+        num1 = num1 ^ num2;
+        num2 = num1 ^ num2;
+        num1 = num1 ^ num2;
+        System.out.println("Value of m is " + m
+                           + " and Value of n is " + n);
+    }
+ 
+    public static void main(String[] args)
+    {
+        int m = 9, n = 5;
+         swapValuesUsingXOROperator(m, n);
+    }
+}

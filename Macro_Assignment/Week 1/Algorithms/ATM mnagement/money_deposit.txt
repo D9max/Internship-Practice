@@ -1,0 +1,32 @@
+//money deposite
+
+Step1 : Start
+Step2 : Declare Amount,Atm_Card,Atm_pin
+step3 : Read Atm_Card
+step4 : intialize Atm_pin
+step5 : check Atm_pin 
+      if(Atm_pin==****) if true go to 
+        step6 if the condition false go to step 8
+step6 : Put the amount in lobby that u need to 
+       	Deposit     
+       else goto step7
+step7 : Invalid Pin
+step8 : stop
+
+//Generalized way
+
+Step1 : Start
+Step2 : Go to the nearest Atm
+Step3 : Insert the Atm_Card
+           wait for machine to read the Atm_card
+           Enter the PIN
+Step4 : if PIN is Correct then go for step5
+              Else Goto step 10
+Step5 : Lobby Opens put the amount you need to deposit
+Step6 : Collect the rejected Notes and Hit enter
+Step7 : Verify the Amount you deposit and hit enter
+Step8 : Collect the reciept for Amount you deposit
+		if cancelled goto step10
+Step10 : Re-Enter the Pin and Go for Step3
+Step10 : Stop
+ 

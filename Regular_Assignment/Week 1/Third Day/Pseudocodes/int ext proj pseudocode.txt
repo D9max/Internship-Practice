@@ -1,0 +1,44 @@
+begin
+number int,ext,proj
+number projscore,extscore,intscore,total
+print("enter internal marks")
+input int
+print("enter external marks")
+input ext
+print("enter project marks")
+input proj
+if int>=50 && ext>=50 && proj>=50
+{
+projscore=(proj*70)/100
+extscore=(ext*20)/100
+intscore=(int*10)/100
+total=projscore + extscore + intscore
+if total>90
+{
+print("Grade A")
+}
+else if total>70
+{
+print("Grade B")
+}
+else
+{
+print("Grade C")
+}
+}
+else if proj<50
+{
+if proj<50
+{
+print("failed in project with marks",proj)
+}
+else if ext<50
+{
+print("failed in external with marks",ext)
+}
+else
+{
+print("failed in internal with marks",int)
+}
+}
+end

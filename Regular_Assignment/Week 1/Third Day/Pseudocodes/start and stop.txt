@@ -1,0 +1,49 @@
+//To accept start and stop values and print between values using for loop
+
+begin
+number start, stop,i
+print("enter start")
+input start
+print("enter stop")
+input stop
+if start<stop
+{
+ for(i=start;i<stop;i++)
+  {
+   print(i)
+  }
+}
+else
+{
+  for(i=start;start>stop;start--)
+  {
+   print(start)
+  }
+}
+end
+---------------------------------------------------------------------------------------
+//To accept start and stop values and print between values using while loop
+
+begin
+number start, stop
+print("enter start")
+input start
+print("enter stop")
+input stop
+if start<stop
+{
+  while start<=stop
+  {
+   print(start)
+   start=start+1
+  }
+}
+else
+{
+  while start>=stop
+  {
+   print(start)
+   start=start-1
+  }
+}
+end

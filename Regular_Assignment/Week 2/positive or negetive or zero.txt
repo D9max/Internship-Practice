@@ -1,0 +1,15 @@
+// positive or negetive or zero
+
+class CheckPositiveNegative0{
+public static void main(String args[]){
+   int num=456;
+  if(num>0){
+  System.out.println(num+" is a positive number");
+}else if(num<0){
+  System.out.println(num+" is a Negative number");
+}
+else{
+  System.out.println("The given number is zero");
+}
+}
+}

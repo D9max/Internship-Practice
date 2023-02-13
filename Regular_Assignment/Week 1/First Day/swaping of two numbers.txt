@@ -1,0 +1,22 @@
+//Swaping of two numbers
+
+Step1 : start
+step2 : Declare variables a,b,temp;
+step3 : Read a,b;
+step3 : perform swap operation temp =a
+                              a = b
+                              b = temp;
+step4 : dispalay a,b;
+step5 : stop
+
+
+//Swaping without Temp variable
+
+Step1 : start
+step2 : Declare variables a,b;
+step3 : Read a,b;
+step3 : perform swap operation a=a+b
+                             b=a-b
+                             a=a-b;
+step4 : dispalay a,b;
+step5 : stop

@@ -1,0 +1,9 @@
+//Area of Square
+
+Step1 : start
+step2 : Declare variables a,Area ;
+step3 : Read a;
+step3 : square of two numbers and store in variable
+             Area= a*a
+step4 : dispalay Area;
+step5 : stop

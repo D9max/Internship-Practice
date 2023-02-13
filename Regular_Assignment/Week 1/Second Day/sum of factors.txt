@@ -1,0 +1,13 @@
+//Sum of factors of numbers
+
+step1 : start
+step2 : declare i,n,sum
+step3 : read n
+step4 : intialize i=0,fact=0
+step5 : check i value with n
+		 if i<=n/2 true goto step6 else goto step9
+step6 : if n%i==0 go to step 7
+step7 : fact= fact+i go to step 8
+step8 : increment i goto step5
+step9 : display sum value
+step10 : stop

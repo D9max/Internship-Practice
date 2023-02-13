@@ -1,0 +1,16 @@
+//Employee managemen
+
+Step1 : Start
+Step2 : To Provide Employee vacancy through Site of Offline
+Step3 : The employee visit hotel take his interview
+Step4 : If he fits for all the qualities and pass the 
+     		 all tests then offer him a job
+      		else 
+      		Reject him
+Step5 : It Allocate a specific Salary for the employee(our Performance)
+Step6 : Sprovide him with the neccessary training
+Step7 : Once the training is complete observe his performance if it is good then promote him for the higher post
+       else
+       	Tell him to do better
+Step8 : If he continue dull performance then fier him from the work
+Step9 : Stop

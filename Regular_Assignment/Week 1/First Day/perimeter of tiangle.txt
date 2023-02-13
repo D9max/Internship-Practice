@@ -1,0 +1,8 @@
+//perimeter of tiangle
+
+Step1 : start
+step2 : Declare variables a,b,c;
+step3 : Read a,b,c;
+step3 : perform perimeter operation perimeter=a+b+c;
+step4 : dispalay perimeter;
+step5 : stop

@@ -1,0 +1,13 @@
+//sum of odd numbers from 1 to n
+
+step1 : start
+step2 : declare sum,i,n
+step3 : read n
+step4 : intialize i=2, sum=0
+step5 : check i value with n 
+		if i<=n true goto step6 else goto step9
+step6 : if i%2!==0 true go to step 7
+step7 : sum=sum+i
+step8 : increment i goto step5
+step9 : display sum value
+step10 : stop

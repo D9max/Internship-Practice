@@ -1,0 +1,10 @@
+//number is divisible by 5
+
+step1 :  start
+step2 : declare a
+step3 : read a
+step4 : if a%5==0:
+           display a is divisible by 5
+    else
+           display a is not divisible by 5
+step5 : stop

@@ -1,0 +1,22 @@
+//swap 2 numbers 
+Swapping the Values Using Third Variable
+
+import java.util.*;
+ 
+class Swap {
+    static void UsingThirdVariable(int m, int n)
+    {
+        int temp = m;
+        m = n;
+        n = temp;
+        System.out.println("Value of m is " + m
+                           + " and Value of n is " + n);
+    }
+    public static void main(String[] args)
+    {
+       
+        int m = 6, n = 8;
+ 
+        swapValuesUsingThirdVariable(m, n);
+    }
+}

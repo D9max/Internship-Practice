@@ -1,0 +1,12 @@
+//odd numbers from 1 to n
+
+step1 : start
+step2 : declare i ,n
+step3 : read n
+step4 : intialize the i value i=1
+step5 : check i value with n if(i<=n) if true go to 
+       	 step6 if the condition false go to step 9
+step6 : if i%2!==0 go to step 7
+step7 : display/print i
+step8 : increment i go to step 5
+step9 : stop

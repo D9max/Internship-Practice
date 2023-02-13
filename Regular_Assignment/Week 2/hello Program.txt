@@ -1,0 +1,8 @@
+//To print Hello Bitlabs
+
+class Sample {
+  public static void main(String agrs[]){
+    System.out.println("Hello Bitlabs");
+    
+  }
+}

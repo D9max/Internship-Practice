@@ -1,0 +1,246 @@
+//area of rectanlge
+
+BEGIN
+     DECLARE l,b,area;
+     READ l,b;
+     CALCULATE area=l*b;
+     DISPALY area;
+END
+-------------------------------------------------------------------
+
+//area of square
+
+BEGIN
+     DECLARE length, L;
+     READ length,L;
+     CALCULATE area=length*L;
+     DISPALY area;
+END
+-------------------------------------------------------------------
+
+//area of triangle
+
+BEGIN
+     DECLARE base,height;
+     READ base,height;
+     CALCULATE area=1/2*base*height;
+     DISPALY area;
+END
+-------------------------------------------------------------------
+
+//character to check alphabet or digit or character
+
+BEGIN
+     DECLARE char;
+     READ char;
+     CALCULATE 
+		IF char > = a && char < = z || 
+                   char > = A && char < = Z;
+     DISPALY is alphabet;
+			if(ch >= '0' && ch <= '9');
+     DISPALY is digit;
+	ELSE
+	DISPLAY is a special character
+END
+-------------------------------------------------------------------
+
+// even or odd
+
+BEGIN
+     DECLARE num;
+     READ num;
+     CALCULATE 
+		IF num mod = 1
+     DISPALY is Even;
+	ELSE
+	DISPLAY is  odd;
+END
+-------------------------------------------------------------------
+
+//factor of number
+
+BEGIN
+     DECLARE n,i;
+     READ n;
+     INTIALISE i=0
+		FOR (for i=1 to n/2 and increment i by 1)
+     CHECK
+			if  n%i==0 THEN
+     DISPALY  i;
+END
+-------------------------------------------------------------------
+//print sum of even numbers
+
+BEGIN
+    DECLARE n,i,sum
+    READ n
+    INTIALISE i=0 sum=0
+    WHILE (i<=n) DO
+             IF i%2==0 THEN
+                     CALCULATE sum=sum+i
+              END IF
+              i=i+1
+      END WHILE
+      DISPLAY sum
+END 
+-------------------------------------------------------------------
+// sum of two numbers
+
+BEGIN
+      DECLARE num1,num2,sum;
+      READ num1,num2;
+      CALCULATE sum=num1+num2;
+      DISPLAY sum;
+END
+
+-------------------------------------------------------------------
+//greatest of 3 numbers
+
+BEGIN
+     DECLARE num1,num2,num3
+     READ num1,num2,num3
+     IF (num1>num2) && (num1>num3) THEN
+              DISPLAY "num1 is bigger"
+     ELSE IF (num2>num1) && (num2>num3) THEN
+              DISPLAY "num2 is bigger"
+     ELSE
+                DISPLAY "num3 is bigger"
+     END IF
+END
+
+-------------------------------------------------------------------
+//greatest of 2 numbers
+
+BEGIN
+     DECLARE num1,num2
+     READ num1,num2
+     IF (num1>num2) THEN
+              DISPLAY "num1 is bigger"
+     ELSE IF (num2>num1)  THEN
+              DISPLAY "num2 is bigger"
+     END IF
+END
+-------------------------------------------------------------------
+// factorial of number
+
+BEGIN
+	DECLARE n,fact,i
+	READ n;
+	INITIALIZE fact = 1 , i = 1 ;
+	WHILE 
+			i < = fact * i
+			fact = fact * i
+			i = i+1
+	END WHILE
+       DISPLAY fact;
+END
+-------------------------------------------------------------------
+// character or not 
+
+BEGIN 
+	DECLARE char, t;
+	READ t;
+		if char == t THEN 
+	DISPLAY character;
+ELSE
+       DISPLAY not a character;
+END
+
+-------------------------------------------------------------------
+//perimeter of Square
+
+BEGIN
+	DECLARE area,perimeter;
+	READ side;
+		area= side * side;
+	perimeter = 4 * side;
+       DISPLAY area;
+END
+	
+-------------------------------------------------------------------
+
+//perimeter of Triangle
+
+BEGIN
+	DECLARE side1 , side2, side3 ;
+	READ side1 , side2, side3;
+		perimeter = side1 + side2 + side3
+	
+       DISPLAY perimeter;
+END
+
+-------------------------------------------------------------------
+//positive or negative
+
+BEGIN
+	DECLARE num ;
+	READ num;
+		IF num > 0 THEN
+	DISPLAY Entered number is positive;
+ELSE IF 
+       num <0 THEN
+       DISPLAY Entered number is negetive ;
+ENDIF
+END
+-------------------------------------------------------------------
+//perimeter of  Rectangle
+
+BEGIN 
+	DECLARE b1,b2,area,perimeter;
+	READ b1,b2;
+		area= b1*b2;
+	perimeter = 2 * (b1 + b2);
+       DISPLAY area;
+	DISPLAY perimeter
+END
+
+-------------------------------------------------------------------
+//product of two numbers
+
+BEGIN 
+	DECLARE A, B;
+	READ A, B;
+		C =A * B
+       DISPLAY C;
+END
+-------------------------------------------------------------------
+// read alphabet
+
+BEGIN 
+	DECLARE char;
+	READ c;
+		if char > = 'a' && c < = 'z' || char > = 'A' && c < = 'Z' THEN 
+	DISPLAY character;
+ELSE
+       DISPLAY not a character;
+END
+
+-------------------------------------------------------------------
+//read vowel
+
+BEGIN 
+	DECLARE char;
+	READ char;
+		if char == a || char == A 
+		if char == e || char == E
+		if char == i  || char == I
+		if char == o || char == O
+		if char == u || char == U   THEN 
+	DISPLAY vowel;
+ELSE
+       DISPLAY not a vowel;
+END
+-------------------------------------------------------------------
+
+// even or odd or zero
+
+BEGIN
+     DECLARE num;
+     READ num;
+		IF num == 0
+     DISPALY is zero;
+		IF num % 2 == 0 
+	DISPLAY is  even;
+ELSE
+	DISPLAY is  odd;
+END

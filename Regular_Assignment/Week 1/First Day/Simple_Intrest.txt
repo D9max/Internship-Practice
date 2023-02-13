@@ -1,0 +1,8 @@
+//simple Interest
+
+Step1 : start
+step2 : Declare variables SI,P,T,R;
+step3 : Read P,T,R;
+step3 : perform simple intrest operation SI=P*(1+r*t)
+step4 : dispalay SI;
+step5 : stop

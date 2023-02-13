@@ -1,0 +1,33 @@
+//to print even numbers between 10-1 numbers using for loop
+
+begin 
+number num=10
+for(num=10;num>=1;num--)
+{
+ if num%2==0
+ {
+  print(num)
+ }
+}
+
+end
+
+--------------------------------------------------------------------------------
+//to print even numbers between 10-1 numbers using while loop
+
+begin 
+number num=10
+while num>=1
+{
+ if num%2==0
+ {
+  print(num)
+  num=num-1
+ }
+else
+{
+num=num-1
+}
+}
+
+end
