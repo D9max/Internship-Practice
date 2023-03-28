@@ -1,0 +1,1 @@
+//Create an abstract class "BankAccount" with a non-abstract method "getAccountNumber()". Implement two subclasses "SavingsAccount" and "CheckingAccount" which implement the "getAccountNumber()" method and also override the "withdraw()" and "deposit()" methods according to their own rules.
