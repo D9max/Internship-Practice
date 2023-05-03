@@ -104,7 +104,6 @@ class Teacher {
         this.subject = subject;
     }
 
-    @Override
     public String toString() {
         return "Teacher [name=" + name + ", subject=" + subject + "]";
     }
@@ -135,7 +134,6 @@ public void setGradeLevel(int gradeLevel) {
     this.gradeLevel = gradeLevel;
 }
 
-@Override
 public String toString() {
     return "Student [name=" + name + ", gradeLevel=" + gradeLevel + "]";
 }
