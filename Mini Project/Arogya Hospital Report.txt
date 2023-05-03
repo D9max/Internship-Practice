@@ -1,0 +1,53 @@
+continue this sentence Report on Arogya Hospital Project:
+
+Introduction:
+Arogya Hospital is a project aimed at managing the data of patients admitted to the hospital during the Covid-19 pandemic. The project consists of a Java program that allows users to add, search, and mark patients as recovered. The data is stored using an instance of the HashSet class.
+
+AarogyaMember Class:
+The AarogyaMember class is the main class of the project that defines the attributes of each patient. It contains the following attributes:
+
+name
+age
+gender
+aadharCardNumber
+contactNumber
+city
+address
+dateOfAdmission
+guardianName
+guardianAddress
+guardianContactNumber
+recovered
+memberId
+The AarogyaMember class also contains a constructor that takes memberId, name, and age as arguments. The constructor initializes the memberId, name, and age attributes of the AarogyaMember object. The recovered attribute is initialized to false by default.
+
+The class also contains several getter methods that are used to retrieve the value of the attributes of an AarogyaMember object. The markAsRecovered() method sets the recovered attribute to true.
+
+ArogyaHospital Class:
+The ArogyaHospital class is the main class of the project that contains the methods for adding, searching, and marking patients as recovered.
+
+addMember() Method:
+The addMember() method is used to add a new AarogyaMember object to the HashSet. The method takes two arguments, members and memberId. The members argument is an instance of the HashSet class that contains the data of all the patients admitted to the hospital. The memberId argument is the ID of the new member to be added.
+
+The addMember() method creates a new instance of the AarogyaMember class and initializes its attributes by calling the input() method. The input() method prompts the user to input the attributes of the new member, such as name, age, gender, aadhar card number, contact number, city, address, date of admission, guardian name, guardian address, and guardian contact number. The input is validated to ensure that the age is not 0 or null, the Aadhar card number is a 12 digit number, and the contact number is a 10 digit number starting with 7, 8, or 9.
+
+Once the input is validated, the new AarogyaMember object is added to the members HashSet.
+
+markRecovered() Method:
+The markRecovered() method is used to mark a patient as recovered. The method takes one argument, members, which is an instance of the HashSet class that contains the data of all the patients admitted to the hospital.
+
+The method prompts the user to input the ID of the patient to be marked as recovered. It then iterates over the members HashSet to find the AarogyaMember object with the specified ID. If the object is found, the markAsRecovered() method is called to mark the patient as recovered. Otherwise, an error message is displayed.
+
+displayMembers() Method:
+The displayMembers() method is used to display the data of all the patients admitted to the hospital. The method takes one argument, members, which is an instance of the HashSet class that contains the data of all the patients admitted to the hospital.
+
+The method iterates over the members HashSet and displays the ID, name, age, city, and recovered status of each AarogyaMember object.
+
+searchMember() Method:
+The searchMember() method is used to search for a patient with a specified ID. The method takes one argument, members, which is an instance of the HashSet class that contains the data of all the patients admitted to the hospital.
+
+The method prompts the user to input
+the ID of the patient to be searched for. It then iterates over the members HashSet to find the AarogyaMember object with the specified ID. If the object is found, the method displays the details of the patient, including their name, age, gender, Aadhar card number, contact number, city, address, date of admission, guardian name, guardian address, guardian contact number, and recovered status. If the patient is not found, an error message is displayed.
+
+Conclusion:
+The Arogya Hospital project is an efficient way of managing the data of Covid-19 patients admitted to the hospital. The project makes use of the HashSet class to store patient data and provides methods for adding, searching, and marking patients as recovered. The project is implemented using Java programming language and contains two main classes, AarogyaMember and ArogyaHospital. The AarogyaMember class defines the attributes of each patient, while the ArogyaHospital class contains the methods for managing patient data. Overall, the Arogya Hospital project is an effective tool for managing patient data and can be easily adapted for use in other hospitals.
